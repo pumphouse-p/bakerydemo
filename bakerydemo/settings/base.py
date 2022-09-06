@@ -91,7 +91,7 @@ TEMPLATES = [
     {
         "BACKEND": "django.template.backends.django.DjangoTemplates",
         "DIRS": [
-            "bakerydemo/templates",
+            PROJECT_ROOT + "bakerydemo/templates",
         ],
         "APP_DIRS": True,
         "OPTIONS": {
